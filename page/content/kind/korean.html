@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <title>Korean</title>
 
+    <link rel="icon" href="https://chu289.github.io/FoodMap/src/image/pizza icon page.png" type="image/x-icon" />
+
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -30,54 +32,96 @@
                 <span>選單</span>
             </label>
             <nav>
-            <div class="right-menu">
-                <ul style="margin: 0 auto;">
-                    <li class="menu-header-city"><a class="menu-header-text">城市</a>
-                        <ul class="sub-menu-city">
-                            <li class="single-region"><a class="region-text">北部地區</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/taipei.html">台北市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/newtaipei.html">新北市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">桃園市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">基隆市</a></li><br>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">新竹縣</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">新竹市</a></li>
-                            <li><span class="single-region"><a class="region-text">中部地區</a></span></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/taichung.html">台中市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">苗栗縣</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/changhua.html">彰化縣</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">南投縣</a></li><br>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">雲林縣</a></li>
-                            <li><span class="single-region"><a class="region-text">南部地區</a></span></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/kaohsiung.html">高雄市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/tainan.html">台南市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">嘉義市</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">嘉義縣</a></li><br>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">屏東縣</a></li>
-                            <li><span class="single-region"><a class="region-text">東部地區</a></span></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/yilan.html">宜蘭縣</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/content/city/hualien.html">花蓮縣</a></li>
-                            <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">台東縣</a></li>
-                        </ul>
-                        <span class="arrow"><i class="el-icon-arrow-down" style="margin-left: 10px;"></i></span>
-                    </li>
-                    <li class="menu-header-food"><a class="menu-header-text">美食</a>
-                        <ul class="sub-menu-food">
-                            <li><span class="food-title"><a class="food-text">各式料理</a></span></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/japanese.html">日式料理</a></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/korean.html">韓式料理</a></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/china.html">中式料理</a></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/american.html">美式料理</a></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/italy.html">義式料理</a></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/thailand.html">泰式料理</a></li>
-                            <li class="food-kind"><a href="https://chu289.github.io/FoodMap/page/content/kind/hongkong.html">港式料理</a></li>
-                        </ul>
-                        <span class="arrow"><i class="el-icon-arrow-down"></i></span>
-                    </li>
-                    <li class="menu-header-about"><a class="menu-header-text" href="https://chu289.github.io/FoodMap/page/about.html">關於我們</a></li>
-                </ul>
-            </div>
+                <div class="right-menu">
+                    <ul style="margin: 0 auto;">
+                        <li class="menu-header-city"><a class="menu-header-text">城市</a>
+                            <ul class="sub-menu-city">
+                                <li class="single-region"><a class="region-text">北部地區</a></li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/taipei.html">台北市</a>
+                                </li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/newtaipei.html">新北市</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">桃園市</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">基隆市</a>
+                                </li><br>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">新竹縣</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">新竹市</a>
+                                </li>
+                                <li><span class="single-region"><a class="region-text">中部地區</a></span></li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/taichung.html">台中市</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">苗栗縣</a>
+                                </li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/changhua.html">彰化縣</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">南投縣</a>
+                                </li><br>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">雲林縣</a>
+                                </li>
+                                <li><span class="single-region"><a class="region-text">南部地區</a></span></li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/kaohsiung.html">高雄市</a>
+                                </li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/tainan.html">台南市</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">嘉義市</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">嘉義縣</a>
+                                </li><br>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">屏東縣</a>
+                                </li>
+                                <li><span class="single-region"><a class="region-text">東部地區</a></span></li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/yilan.html">宜蘭縣</a>
+                                </li>
+                                <li class="single-city"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/city/hualien.html">花蓮縣</a>
+                                </li>
+                                <li class="single-city"><a href="https://chu289.github.io/FoodMap/page/404.html">台東縣</a>
+                                </li>
+                            </ul>
+                            <span class="arrow"><i class="el-icon-arrow-down" style="margin-left: 10px;"></i></span>
+                        </li>
+                        <li class="menu-header-food"><a class="menu-header-text">美食</a>
+                            <ul class="sub-menu-food">
+                                <li><span class="food-title"><a class="food-text">各式料理</a></span></li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/japanese.html">日式料理</a>
+                                </li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/korean.html">韓式料理</a>
+                                </li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/china.html">中式料理</a>
+                                </li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/american.html">美式料理</a>
+                                </li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/italy.html">義式料理</a>
+                                </li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/thailand.html">泰式料理</a>
+                                </li>
+                                <li class="food-kind"><a
+                                        href="https://chu289.github.io/FoodMap/page/content/kind/hongkong.html">港式料理</a>
+                                </li>
+                            </ul>
+                            <span class="arrow"><i class="el-icon-arrow-down"></i></span>
+                        </li>
+                        <li class="menu-header-about"><a class="menu-header-text"
+                                href="https://chu289.github.io/FoodMap/page/about.html">關於我們</a></li>
+                    </ul>
+                </div>
             </nav>
-        </div>        
+        </div>
         <section class="loading-section" v-if="loading">
             <div class="loading">
                 <span>loading...</span>

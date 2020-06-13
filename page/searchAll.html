@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <title>All Stores</title>
 
+    <link rel="icon" href="https://chu289.github.io/FoodMap/src/image/pizza icon page.png" type="image/x-icon" />
+
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -20,11 +22,16 @@
 </head>
 
 <body>
+    <input type="checkbox" name="" id="menu-control">
     <div id="web">
         <div id="header">
             <div class="logo">
                 <a href="https://chu289.github.io/FoodMap/index.html">食記</a>
             </div>
+            <label for="menu-control" class="menu-btn">
+                <span>選單</span>
+            </label>
+            <nav>
             <div class="right-menu">
                 <ul style="margin: 0 auto;">
                     <li class="menu-header-city"><a class="menu-header-text">城市</a>
@@ -71,6 +78,7 @@
                     <li class="menu-header-about"><a class="menu-header-text" href="https://chu289.github.io/FoodMap/page/about.html">關於我們</a></li>
                 </ul>
             </div>
+        </nav>
         </div>        
         <section class="loading-section" v-if="loading">
             <div class="loading">
