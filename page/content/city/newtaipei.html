@@ -20,11 +20,16 @@
 </head>
 
 <body>
+    <input type="checkbox" name="" id="menu-control">
     <div id="web">
         <div id="header">
             <div class="logo">
                 <a href="https://chu289.github.io/FoodMap/index.html">食記</a>
             </div>
+            <label for="menu-control" class="menu-btn">
+                <span>選單</span>
+            </label>
+            <nav>
             <div class="right-menu">
                 <ul style="margin: 0 auto;">
                     <li class="menu-header-city"><a class="menu-header-text">城市</a>
@@ -71,6 +76,7 @@
                     <li class="menu-header-about"><a class="menu-header-text" href="https://chu289.github.io/FoodMap/page/about.html">關於我們</a></li>
                 </ul>
             </div>
+            </nav>
         </div>        
         <section class="loading-section" v-if="loading">
             <div class="loading">
